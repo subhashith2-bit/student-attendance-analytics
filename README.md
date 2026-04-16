@@ -31,20 +31,17 @@ It provides an interactive **Streamlit dashboard** to monitor attendance trends,
 * **OpenPyXL** (Excel Handling)
 
 
-## 📁 Project Structure
+##  Project Structure
 
 attendance_project/
-│
 ├── data/
-│   ├── students.csv
-│   ├── attendance_day1.xlsx
-│   ├── attendance_day2.xlsx
-│   ├── attendance_day3.xlsx
-│   ├── attendance_day4.xlsx
-│
+   ├── students.csv
+   ├── attendance_day1.xlsx
+   ├── attendance_day2.xlsx
+   ├── attendance_day3.xlsx
+   ├── attendance_day4.xlsx
 ├── notebook/
-│   └── analysis.ipynb
-│
+   └── analysis.ipynb
 ├── app.py
 └── README.md
 
