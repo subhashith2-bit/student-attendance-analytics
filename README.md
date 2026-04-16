@@ -47,7 +47,6 @@ attendance_project/
 │
 ├── app.py
 └── README.md
-```
 
 
 # Installation & Setup
