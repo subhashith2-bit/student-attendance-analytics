@@ -51,7 +51,7 @@ attendance_project/
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/attendance-analytics-dashboard.git
+git clone https://github.com/subhashith2-bit/attendance-analytics-dashboard.git
 cd attendance-analytics-dashboard
 ```
 
