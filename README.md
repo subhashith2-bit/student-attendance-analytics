@@ -30,9 +30,9 @@ It provides an interactive **Streamlit dashboard** to monitor attendance trends,
 * **Streamlit** (Dashboard)
 * **OpenPyXL** (Excel Handling)
 
-
+```
 ##  Project Structure
-
+```
 attendance_project/
 ├── data/
    ├── students.csv
