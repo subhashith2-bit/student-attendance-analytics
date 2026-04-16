@@ -45,7 +45,7 @@ attendance_project/
 ├── app.py
 └── README.md
 
-
+```
 # Installation & Setup
 
 1. Clone the repository:
