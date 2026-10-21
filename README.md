@@ -2,7 +2,7 @@
 
 An attendance analytics project built using Python and Pandas to analyze student attendance data from multiple Excel files.
 
-The project calculates attendance percentages, identifies students with low attendance, and provides insights by department, college, subject, and date.
+The project calculates attendance percentages, identifies students with low attendance, and provides insights through data analysis and visualization.
 
 ## Project Overview
 
@@ -21,17 +21,17 @@ This project was built to practice a complete data analysis workflow:
 The project focuses on questions such as:
 
 - Which students have attendance below 75%?
-- Which departments have the highest and lowest attendance?
+- Which departments have higher or lower attendance?
 - Which subjects have lower attendance?
-- How does attendance change over time?
-- How many students fall below the required attendance level?
+- How does attendance change across multiple days?
+- Which students require attention due to low attendance?
 
-## Tools & Technologies
+## Technologies Used
 
 - Python
 - Pandas
-- Matplotlib
 - Streamlit
+- Matplotlib
 - OpenPyXL
 - Excel
 
@@ -54,9 +54,14 @@ student-attendance-analytics/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-Dashboard
+```
+
+## Dashboard
+
 The project includes an interactive Streamlit dashboard for exploring attendance data.
-Dashboard Features
+
+### Dashboard Features
+
 - Attendance percentage overview
 - Low attendance student detection
 - Department-wise analysis
@@ -64,27 +69,44 @@ Dashboard Features
 - Subject-wise analysis
 - Attendance trends
 - Student search
-How to Run
-1. Clone the repository
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/subhashith2-bit/student-attendance-analytics.git
 cd student-attendance-analytics
+```
 
-2. Install the required libraries
+### 2. Install the required libraries
+
+```bash
 pip install -r requirements.txt
+```
 
-3. Run the Streamlit dashboard
+### 3. Run the Streamlit dashboard
+
+```bash
 python -m streamlit run app.py
+```
 
-Sample Insights
+## Sample Insights
+
 The analysis can be used to identify:
+
 - Students below the 75% attendance threshold
 - Departments with attendance differences
 - Subjects with lower participation
 - Attendance patterns over multiple days
-Future Improvements
+
+## Future Improvements
+
 - Add attendance prediction using machine learning
 - Add automated alerts for low attendance
 - Improve dashboard visualizations
 - Deploy the dashboard online
-Author
-Subhashith N
+
+## Author
+
+**Subhashith N**
