@@ -72,8 +72,11 @@ The project includes an interactive Streamlit dashboard for exploring attendance
 
 ## How to Run
 
-### 1. Clone the repository
+```markdown
+## 1. Clone the repository
 
+Clone the repository from [GitHub](https://github.com/subhashith2-bit/student-attendance-analytics).
+```
 ```bash
 git clone https://github.com/subhashith2-bit/student-attendance-analytics.git
 cd student-attendance-analytics
